@@ -12,7 +12,6 @@ from src.chmsapi.config.settings import settings
 from src.chmsapi.models.base import MappedBase
 
 
-
 def create_engine_and_session(url: str | URL):
     try:
         # Database engine

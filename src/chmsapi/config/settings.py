@@ -1,8 +1,7 @@
 from functools import lru_cache
-from typing_extensions  import Literal
 
 from pydantic_settings import BaseSettings, SettingsConfigDict
-
+from typing_extensions import Literal
 
 
 class Settings(BaseSettings):
@@ -16,7 +15,6 @@ class Settings(BaseSettings):
     DB_PASSWORD: str
 
     DB_ECHO: bool = False
-
 
     # Env Redis
     REDIS_HOST: str

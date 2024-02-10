@@ -31,5 +31,3 @@ class LeadershipRoleEnum(str, Enum):
     PASTOR = "PASTOR"
     LADY_PASTOR = "LADY_PASTOR"
     REVEREND = "REVEREND"
-
-

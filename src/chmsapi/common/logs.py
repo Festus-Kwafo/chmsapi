@@ -1,9 +1,10 @@
-import json_log_formatter
-import os
 import logging
+import os
 from logging.handlers import RotatingFileHandler
-from src.chmsapi.config.path_conf import LogPath
 
+import json_log_formatter
+
+from src.chmsapi.config.path_conf import LogPath
 from src.chmsapi.config.settings import settings
 
 

@@ -1,10 +1,11 @@
 from datetime import datetime, timezone
-from typing_extensions import Annotated
-from sqlalchemy.orm import MappedAsDataclass, Mapped, DeclarativeBase, mapped_column, declared_attr
+
 from sqlalchemy import String
-from uuid import uuid4
-from ulid import ULID
 from sqlalchemy.dialects.mysql import ENUM as mysql_enum
+from sqlalchemy.orm import MappedAsDataclass, Mapped, DeclarativeBase, mapped_column, declared_attr
+from typing_extensions import Annotated
+from ulid import ULID
+
 from src.chmsapi.common.enums import GenderEnum, MaritalStatusEnum, EducationLevelEnum, MembershipStatusEnum, \
     LeadershipRoleEnum
 

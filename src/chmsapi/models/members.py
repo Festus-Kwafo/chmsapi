@@ -1,10 +1,13 @@
-from src.chmsapi.models.base import Base
-from sqlalchemy import Column, String, DATETIME
-from sqlalchemy.orm import Mapped, mapped_column, relationship
-from src.chmsapi.models.base import id_key
 from datetime import datetime
-from src.chmsapi.models.base import Gender, MaritalStatus, EducationLevel, MembershipStatus, LeadershipRole
+
+from sqlalchemy import Column, String, DATETIME
 from sqlalchemy.dialects.mysql import LONGTEXT
+from sqlalchemy.orm import Mapped, mapped_column
+
+from src.chmsapi.models.base import Base
+from src.chmsapi.models.base import Gender, MaritalStatus, EducationLevel, MembershipStatus, LeadershipRole
+from src.chmsapi.models.base import id_key
+
 
 class Members(Base):
     __tablename__ = "members"
@@ -25,9 +28,3 @@ class Members(Base):
     leadership_role: Mapped[LeadershipRole] = Column(LeadershipRole, nullable=False, comment="Leadership role in the "
                                                                                              "church")
     date_joined: Mapped[datetime] = mapped_column(DATETIME, default=None)
-
-
-
-
-
-
