@@ -1,6 +1,6 @@
 from datetime import datetime
 
-from sqlalchemy import Column, String, DATETIME
+from sqlalchemy import Column, String, DATETIME, ForeignKey
 from sqlalchemy.dialects.mysql import LONGTEXT
 from sqlalchemy.orm import Mapped, mapped_column
 
@@ -9,8 +9,8 @@ from src.chmsapi.models.base import Gender, MaritalStatus, EducationLevel, Membe
 from src.chmsapi.models.base import id_key
 
 
-class Members(Base):
-    __tablename__ = "members"
+class Member(Base):
+    __tablename__ = "member"
 
     id: Mapped[id_key] = mapped_column(init=False)
     first_name: Mapped[str] = mapped_column(String(50), default=None, comment="First Name")
@@ -27,4 +27,6 @@ class Members(Base):
     membership_status: Mapped[MembershipStatus] = Column(MembershipStatus, nullable=False)
     leadership_role: Mapped[LeadershipRole] = Column(LeadershipRole, nullable=False, comment="Leadership role in the "
                                                                                              "church")
+    cell_id: Mapped[str | None] = mapped_column(String(50), ForeignKey("cell.id"))
+    department_id: Mapped[str | None] = mapped_column(String(50), ForeignKey("department.id"))
     date_joined: Mapped[datetime] = mapped_column(DATETIME, default=None)
