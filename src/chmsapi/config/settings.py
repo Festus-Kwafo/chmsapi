@@ -15,6 +15,9 @@ class Settings(BaseSettings):
     DB_USER: str
     DB_PASSWORD: str
 
+    DB_ECHO: bool = False
+
+
     # Env Redis
     REDIS_HOST: str
     REDIS_PORT: int
