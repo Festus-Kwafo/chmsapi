@@ -9,7 +9,7 @@ app = register_app()
 
 
 @app.get("/")
-def index():
+async def index():
     return {"detail": "API Working "}
 
 

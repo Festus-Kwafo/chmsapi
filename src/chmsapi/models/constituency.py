@@ -14,6 +14,6 @@ class Constituency(Base):
     id: Mapped[id_key] = mapped_column(init=False)
     name: Mapped[str] = mapped_column(String(100), default=None)
     location: Mapped[str] = mapped_column(String(100), default=None)
-    leader: Mapped[str] = mapped_column(ForeignKey("member.id"))
+    #leader: Mapped[str] = mapped_column(ForeignKey("member.id"), default=None)
     date_started: Mapped[datetime] = mapped_column(DATETIME, default=None)
-    cells: Mapped[list[Cell]] = relationship()
+    #cells: Mapped[list[Cell]] = relationship(default=None)

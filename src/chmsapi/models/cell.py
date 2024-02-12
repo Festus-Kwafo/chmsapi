@@ -14,8 +14,8 @@ class Cell(Base):
     id: Mapped[id_key] = mapped_column(init=False)
     name: Mapped[str] = mapped_column(String(100), default=None)
     location: Mapped[str] = mapped_column(String(100), default=None)
-    leader_id: Mapped[str] = mapped_column(ForeignKey("member.id"))
-    constituency_id: Mapped[str] = mapped_column(ForeignKey("constituency.id"))
+    leader_id: Mapped[str] = mapped_column(ForeignKey("member.id"), default=None)
+    constituency_id: Mapped[str] = mapped_column(ForeignKey("constituency.id"), default=None)
     date_started: Mapped[datetime] = mapped_column(DATETIME, default=None)
 
-    members: Mapped[list[Member]] = relationship()
+    members: Mapped[list[Member]] = relationship(default=None)

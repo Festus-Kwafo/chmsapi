@@ -16,7 +16,7 @@ def create_engine_and_session(url: str | URL):
     try:
         # Database engine
         engine = create_async_engine(url, echo=settings.DB_ECHO, future=True, pool_pre_ping=True)
-        log.success('Database connection is successful')
+        log.info('Database connection is successful')
     except Exception as e:
         log.error('❌ Database link failure {}', e)
         sys.exit()

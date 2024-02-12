@@ -13,6 +13,7 @@ class Settings(BaseSettings):
     DB_PORT: int
     DB_USER: str
     DB_PASSWORD: str
+    DB_DATABASE: str
 
     DB_ECHO: bool = False
 
