@@ -17,4 +17,3 @@ class Constituency(Base):
     leader: Mapped[str] = mapped_column(ForeignKey("member.id"))
     date_started: Mapped[datetime] = mapped_column(DATETIME, default=None)
     cells: Mapped[list[Cell]] = relationship()
-

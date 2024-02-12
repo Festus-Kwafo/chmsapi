@@ -1,6 +1,4 @@
-from datetime import datetime
-
-from sqlalchemy import String, DATETIME, ForeignKey
+from sqlalchemy import String, ForeignKey
 from sqlalchemy.orm import Mapped, mapped_column, relationship
 
 from src.chmsapi.models.base import Base
@@ -15,4 +13,3 @@ class Department(Base):
     name: Mapped[str] = mapped_column(String(100), default=None)
     leader: Mapped[str] = mapped_column(ForeignKey("member.id"))
     members = Mapped[list[Member]] = relationship()
-

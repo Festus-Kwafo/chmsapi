@@ -1,11 +1,9 @@
 from datetime import datetime, timezone
 
-from sqlalchemy import Column, String, DATETIME, ForeignKey
-from sqlalchemy.dialects.mysql import LONGTEXT
+from sqlalchemy import String
 from sqlalchemy.orm import Mapped, mapped_column
 
 from src.chmsapi.models.base import Base
-from src.chmsapi.models.base import Gender, MaritalStatus, EducationLevel, MembershipStatus, LeadershipRole
 from src.chmsapi.models.base import id_key
 
 
@@ -24,4 +22,3 @@ class User(Base):
     last_login_time: Mapped[datetime | None] = mapped_column(
         init=False, onupdate=datetime.now(timezone.utc), comment='Last login last time'
     )
-

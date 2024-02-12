@@ -18,4 +18,4 @@ class Cell(Base):
     constituency_id: Mapped[str] = mapped_column(ForeignKey("constituency.id"))
     date_started: Mapped[datetime] = mapped_column(DATETIME, default=None)
 
-    members : Mapped[list[Member]] = relationship()
+    members: Mapped[list[Member]] = relationship()
