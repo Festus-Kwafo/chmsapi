@@ -1,9 +1,9 @@
 import uvicorn
 from path import Path
 
-from chmsapi.common import log
-from chmsapi.config.registrar import register_app
-from chmsapi.config.settings import settings
+from src.chmsapi.common.logs import log
+from src.chmsapi.config.registrar import register_app
+from src.chmsapi.config.settings import settings
 
 app = register_app()
 
