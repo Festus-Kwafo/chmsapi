@@ -1,2 +1,20 @@
 2024-02-08 09:22:54.666 | INFO     | __main__:<module>:18 - Start FastAPI Application
 2024-02-08 09:23:01.348 | INFO     | src.middleware.access_middleware:dispatch:16 - 200 127.0.0.1 GET http://127.0.0.1:8000/ 0:00:00.003000
+{"message": "Start FastAPI Application", "time": "2024-02-12T17:01:45.216318"}
+{"message": "Database connection is successful", "time": "2024-02-12T18:43:07.291173"}
+{"message": "Database connection is successful", "time": "2024-02-12T18:46:51.662104"}
+{"message": "Database connection is successful", "time": "2024-02-12T18:47:49.336142"}
+{"message": "Database connection is successful", "time": "2024-02-12T18:48:04.337708"}
+{"message": "Database connection is successful", "time": "2024-02-12T18:49:41.166959"}
+{"message": "Database connection is successful", "time": "2024-02-12T18:50:04.360631"}
+{"message": "Database connection is successful", "time": "2024-02-12T18:51:27.555666"}
+{"message": "Database connection is successful", "time": "2024-02-12T18:53:40.364661"}
+{"message": "Database connection is successful", "time": "2024-02-12T18:53:55.927043"}
+{"message": "Database connection is successful", "time": "2024-02-12T18:54:46.429228"}
+{"message": "Database connection is successful", "time": "2024-02-12T18:56:58.468473"}
+{"message": "Database connection is successful", "time": "2024-02-12T19:06:57.257668"}
+{"message": "Database connection is successful", "time": "2024-02-12T19:07:04.796798"}
+{"message": "Database connection is successful", "time": "2024-02-12T19:08:11.140339"}
+{"message": "Database connection is successful", "time": "2024-02-12T19:08:18.445473"}
+{"message": "Database connection is successful", "time": "2024-02-13T08:58:56.952085"}
+{"message": "Database connection is successful", "time": "2024-02-13T09:00:08.698772"}

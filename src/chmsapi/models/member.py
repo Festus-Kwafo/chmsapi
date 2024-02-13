@@ -13,13 +13,13 @@ class Member(Base):
     __tablename__ = "member"
 
     id: Mapped[id_key] = mapped_column(init=False)
-    first_name: Mapped[str] = mapped_column(String(50), default=None, comment="First Name")
-    last_name: Mapped[str] = mapped_column(String(50), default=None, comment="Last Name")
+    first_name: Mapped[str] = mapped_column(String(50), default=None, index=True, comment="First Name")
+    last_name: Mapped[str] = mapped_column(String(50), default=None, index=True, comment="Last Name")
     email: Mapped[str] = mapped_column(String(50), default=None, unique=True, index=True, comment='email address')
     dob: Mapped[datetime] = mapped_column(DATETIME, default=None)
     phone_number: Mapped[str | None] = mapped_column(String(11), default=None, comment='Phone number')
     gender: Mapped[Gender] = Column(Gender, nullable=False)
-    nationality: Mapped[str] = mapped_column(String(50), index=True, default=None, comment=" Nationality")
+    nationality: Mapped[str] = mapped_column(String(50),  default=None, comment=" Nationality")
     marital_status: Mapped[MaritalStatus] = Column(MaritalStatus, nullable=False, default="MALE")
     address: Mapped[str | None] = mapped_column(LONGTEXT, default=None, comment='Address')
     gps_address: Mapped[str | None] = mapped_column(String(50), default=None, comment="Ghana Post Address")
