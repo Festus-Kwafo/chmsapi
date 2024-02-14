@@ -32,3 +32,9 @@ class MemberSchema(CreateMember):
 
     class Config:
         from_attributes = True
+
+
+class UpdateMemberSchema(CreateMember):
+    class Config:
+        from_attributes = True
+        populate_by_name = True

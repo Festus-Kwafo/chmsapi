@@ -1,7 +1,7 @@
 from fastapi import APIRouter
-from src.chmsapi.schemas.member_schema import CreateMember, MemberSchema
+from src.chmsapi.schemas.member_schema import CreateMember, MemberSchema, UpdateMemberSchema
 from src.chmsapi.services.member_service import MemberService
-from fastapi_pagination import Page, LimitOffsetPage, paginate
+from fastapi_pagination import Page, aginate
 
 router = APIRouter()
 
@@ -16,6 +16,11 @@ async def member_all():
     return await MemberService.get_all()
 
 
-@router.post("/{member_id}/", summary="Get member by id")
+@router.post("/{member_id}/", summary="Get member by id", response_model=MemberSchema)
 async def member_by_id(member_id: str):
     return await MemberService.get_member_by_id(member_id)
+
+
+@router.put("/{member_id}/", summary="Update member by id", response_model=MemberSchema)
+async def member_update_by_id(member_id: str, request: UpdateMemberSchema):
+    return await MemberService.update_member_by_id(member_id, request)

@@ -1,9 +1,10 @@
-from src.chmsapi.schemas.member_schema import CreateMember
+from src.chmsapi.schemas.member_schema import CreateMember, UpdateMemberSchema
 from src.chmsapi.config.db import async_db_session
 from src.chmsapi.handlers.member_handler import CRUDMember
 from src.chmsapi.models.member import Member
 from src.chmsapi.common.exception import errors
 from fastapi import HTTPException, status
+
 
 class MemberService:
     @staticmethod
@@ -17,7 +18,6 @@ class MemberService:
         async with async_db_session.begin() as db:
             return await CRUDMember().get_all_members(db)
 
-
     @staticmethod
     async def get_member_by_id(member_id: str) -> Member:
         async with async_db_session.begin() as db:
@@ -27,3 +27,12 @@ class MemberService:
             else:
                 return results
 
+
+    @staticmethod
+    async def update_member_by_id(member_id: str, obj: UpdateMemberSchema) -> Member:
+        async with async_db_session.begin() as db:
+            results = await CRUDMember().update_by_id_member(db, member_id, obj)
+            if results == None:
+                raise errors.HTTPError(code=status.HTTP_404_NOT_FOUND)
+            else:
+                return results

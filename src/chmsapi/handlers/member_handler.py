@@ -1,12 +1,13 @@
 from sqlalchemy.ext.asyncio import AsyncSession, async_sessionmaker
 from sqlalchemy import select
-from src.chmsapi.schemas.member_schema import CreateMember
+from src.chmsapi.schemas.member_schema import CreateMember, UpdateMemberSchema
 from src.chmsapi.models.member import Member
 from src.chmsapi.config.db import async_db_session
 from datetime import datetime
 from fastapi_pagination import paginate
 from fastapi_pagination.utils import disable_installed_extensions_check
 from typing import List
+from sqlalchemy import update
 
 disable_installed_extensions_check()
 
@@ -27,3 +28,12 @@ class CRUDMember:
     async def get_by_id_member(db: AsyncSession, member_id: str) -> Member | None:
         q = await db.execute(select(Member).filter(Member.id == member_id))
         return q.one_or_none()
+
+    @staticmethod
+    async def update_by_id_member(db: AsyncSession, member_id: str, member_schema: UpdateMemberSchema) -> Member:
+        for var, value in vars(member_schema).items():
+            setattr(member_schema, var, value) if value else None
+        q = update(Member).where(Member.id == member_id).values(vars(member_schema))
+        q.execution_options(synchronize_session="fetch")
+        await db.execute(q)
+        return await CRUDMember.get_by_id_member(db, member_id)

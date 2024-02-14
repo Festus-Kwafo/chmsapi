@@ -31,3 +31,28 @@
 {"message": "404 127.0.0.1 POST http://localhost:8000/api/v1/member/2/ 0:00:00.049000", "time": "2024-02-14T12:07:46.659649"}
 {"message": "Database connection is successful", "time": "2024-02-14T12:10:25.217557"}
 {"message": "404 127.0.0.1 POST http://localhost:8000/api/v1/member/2/ 0:00:00.046019", "time": "2024-02-14T12:10:25.516346"}
+{"message": "Database connection is successful", "time": "2024-02-14T12:28:04.003528"}
+{"message": "Database connection is successful", "time": "2024-02-14T12:30:08.398497"}
+{"message": "Database connection is successful", "time": "2024-02-14T12:30:37.003558"}
+{"message": "Database connection is successful", "time": "2024-02-14T12:30:45.544101"}
+{"message": "Database connection is successful", "time": "2024-02-14T12:31:20.124317"}
+{"message": "Database connection is successful", "time": "2024-02-14T12:31:41.966125"}
+{"message": "Database connection is successful", "time": "2024-02-14T12:32:20.164761"}
+{"message": "Database connection is successful", "time": "2024-02-14T12:32:28.241137"}
+{"message": "Database connection is successful", "time": "2024-02-14T12:32:35.546104"}
+{"message": "Database connection is successful", "time": "2024-02-14T12:33:38.122579"}
+{"message": "Database connection is successful", "time": "2024-02-14T12:34:20.595237"}
+{"message": "Database connection is successful", "time": "2024-02-14T12:36:04.918522"}
+{"message": "Database connection is successful", "time": "2024-02-14T12:36:27.000003"}
+{"message": "Database connection is successful", "time": "2024-02-14T12:36:46.371504"}
+{"message": "Database connection is successful", "time": "2024-02-14T12:37:35.265379"}
+{"message": "Database connection is successful", "time": "2024-02-14T12:37:46.350094"}
+{"message": "Database connection is successful", "time": "2024-02-14T12:38:24.106022"}
+{"message": "Database connection is successful", "time": "2024-02-14T12:39:00.504892"}
+{"message": "Database connection is successful", "time": "2024-02-14T12:39:34.961366"}
+{"message": "Database connection is successful", "time": "2024-02-14T12:39:42.024275"}
+{"message": "Database connection is successful", "time": "2024-02-14T12:40:16.372413"}
+{"message": "Database connection is successful", "time": "2024-02-14T12:40:23.596688"}
+{"message": "200 127.0.0.1 GET http://localhost:8000/api/v1/docs 0:00:00.001003", "time": "2024-02-14T12:40:27.833172"}
+{"message": "200 127.0.0.1 GET http://localhost:8000/api/v1/openapi 0:00:00.019998", "time": "2024-02-14T12:40:28.157315"}
+{"message": "Database connection is successful", "time": "2024-02-14T12:41:16.804155"}
