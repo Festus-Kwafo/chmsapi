@@ -19,7 +19,7 @@ class Member(Base):
     dob: Mapped[datetime] = mapped_column(DateTime, default=None)
     phone_number: Mapped[str | None] = mapped_column(String(11), default=None, comment='Phone number')
     gender: Mapped[Gender] = Column(Gender, nullable=False)
-    nationality: Mapped[str] = mapped_column(String(50),  default=None, comment=" Nationality")
+    nationality: Mapped[str] = mapped_column(String(50), default=None, comment=" Nationality")
     marital_status: Mapped[MaritalStatus] = Column(MaritalStatus, nullable=False, default="MALE")
     address: Mapped[str | None] = mapped_column(LONGTEXT, default=None, comment='Address')
     gps_address: Mapped[str | None] = mapped_column(String(50), default=None, comment="Ghana Post Address")

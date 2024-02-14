@@ -1,18 +1,17 @@
 import asyncio
-from logging.config import fileConfig
-import os
 import sys
+from logging.config import fileConfig
+
+from alembic import context
 from sqlalchemy import pool
 from sqlalchemy.engine import Connection
 from sqlalchemy.ext.asyncio import async_engine_from_config
 
-from alembic import context
-
 sys.path.append('../../')
-
 
 from src.chmsapi.config.db import SQLALCHEMY_DATABASE_URL
 from src.chmsapi.models import *
+
 # this is the Alembic Config object, which provides
 # access to the values within the .ini file in use.
 config = context.config
@@ -29,6 +28,7 @@ if config.config_file_name is not None:
 target_metadata = MappedBase.metadata
 
 config.set_main_option('sqlalchemy.url', SQLALCHEMY_DATABASE_URL)
+
 
 # other values from the config, defined by the needs of env.py,
 # can be acquired:

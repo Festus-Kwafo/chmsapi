@@ -12,7 +12,8 @@ from src.chmsapi.common.enums import GenderEnum, MaritalStatusEnum, EducationLev
 
 class DateTimeMixin(MappedAsDataclass):
     created_date: Mapped[datetime] = mapped_column(init=False, sort_order=999, default=datetime.now(timezone.utc))
-    updated_date: Mapped[datetime] = mapped_column(init=False, sort_order=999, default=datetime.now(timezone.utc), onupdate=datetime.now(timezone.utc))
+    updated_date: Mapped[datetime] = mapped_column(init=False, sort_order=999, default=datetime.now(timezone.utc),
+                                                   onupdate=datetime.now(timezone.utc))
 
 
 class MappedBase(DeclarativeBase):

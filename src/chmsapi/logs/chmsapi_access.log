@@ -56,3 +56,6 @@
 {"message": "200 127.0.0.1 GET http://localhost:8000/api/v1/docs 0:00:00.001003", "time": "2024-02-14T12:40:27.833172"}
 {"message": "200 127.0.0.1 GET http://localhost:8000/api/v1/openapi 0:00:00.019998", "time": "2024-02-14T12:40:28.157315"}
 {"message": "Database connection is successful", "time": "2024-02-14T12:41:16.804155"}
+{"message": "Database connection is successful", "time": "2024-02-14T12:42:11.920693"}
+{"message": "Database connection is successful", "time": "2024-02-14T12:43:32.591761"}
+{"message": "Database connection is successful", "time": "2024-02-14T12:43:41.158146"}

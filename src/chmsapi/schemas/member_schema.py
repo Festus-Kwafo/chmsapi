@@ -1,8 +1,10 @@
-from pydantic import BaseModel
+from datetime import datetime
 from typing import Optional
+
+from pydantic import BaseModel
+
 from src.chmsapi.common.enums import MembershipStatusEnum, MaritalStatusEnum, LeadershipRoleEnum, EducationLevelEnum, \
     GenderEnum
-from datetime import datetime
 
 
 class CreateMember(BaseModel):

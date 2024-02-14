@@ -1,7 +1,8 @@
 from fastapi import APIRouter
+from fastapi_pagination import Page
+
 from src.chmsapi.schemas.member_schema import CreateMember, MemberSchema, UpdateMemberSchema
 from src.chmsapi.services.member_service import MemberService
-from fastapi_pagination import Page, aginate
 
 router = APIRouter()
 

@@ -1,10 +1,10 @@
 from fastapi import FastAPI
+from fastapi_pagination import add_pagination
 
 from chmsapi.api.routers import v1
 from chmsapi.config.settings import settings
 from chmsapi.utilities.health_check import ensure_unique_route_names
 from chmsapi.utilities.openapi import simplify_operation_ids
-from fastapi_pagination import add_pagination
 
 
 def register_app():

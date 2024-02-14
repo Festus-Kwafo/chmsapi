@@ -1,13 +1,13 @@
-from sqlalchemy.ext.asyncio import AsyncSession, async_sessionmaker
-from sqlalchemy import select
-from src.chmsapi.schemas.member_schema import CreateMember, UpdateMemberSchema
-from src.chmsapi.models.member import Member
-from src.chmsapi.config.db import async_db_session
-from datetime import datetime
+from typing import List
+
 from fastapi_pagination import paginate
 from fastapi_pagination.utils import disable_installed_extensions_check
-from typing import List
+from sqlalchemy import select
 from sqlalchemy import update
+from sqlalchemy.ext.asyncio import AsyncSession
+
+from src.chmsapi.models.member import Member
+from src.chmsapi.schemas.member_schema import CreateMember, UpdateMemberSchema
 
 disable_installed_extensions_check()
 

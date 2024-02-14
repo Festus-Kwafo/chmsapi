@@ -1,12 +1,10 @@
 from datetime import datetime
 
 from sqlalchemy import String, DATETIME, ForeignKey
-from sqlalchemy.orm import Mapped, mapped_column, relationship
+from sqlalchemy.orm import Mapped, mapped_column
 
 from src.chmsapi.models.base import Base
 from src.chmsapi.models.base import id_key
-from src.chmsapi.models.member import Member
-from typing import List
 
 
 class Cell(Base):
@@ -18,4 +16,3 @@ class Cell(Base):
     leader_id: Mapped[str] = mapped_column(ForeignKey("member.id"), default=None)
     constituency_id: Mapped[str] = mapped_column(ForeignKey("constituency.id"), default=None)
     date_started: Mapped[datetime] = mapped_column(DATETIME, default=None)
-

@@ -1,9 +1,8 @@
 from datetime import datetime
 
 from sqlalchemy import String, DATETIME
-from sqlalchemy.orm import Mapped, mapped_column, relationship
+from sqlalchemy.orm import Mapped, mapped_column
 
-from src.chmsapi.models.attendance import Attendance
 from src.chmsapi.models.base import Base
 from src.chmsapi.models.base import id_key
 

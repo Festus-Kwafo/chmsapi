@@ -1,7 +1,7 @@
 from fastapi import APIRouter
 
-from src.chmsapi.config.settings import settings
 from src.chmsapi.api.v1.members import router as member_router
+from src.chmsapi.config.settings import settings
 
 v1 = APIRouter(prefix=settings.API_V1_STR)
 

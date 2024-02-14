@@ -1,9 +1,8 @@
 from sqlalchemy import String, ForeignKey
-from sqlalchemy.orm import Mapped, mapped_column, relationship
+from sqlalchemy.orm import Mapped, mapped_column
 
 from src.chmsapi.models.base import Base
 from src.chmsapi.models.base import id_key
-from src.chmsapi.models.member import Member
 
 
 class Department(Base):
