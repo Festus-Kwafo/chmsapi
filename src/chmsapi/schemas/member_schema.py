@@ -23,10 +23,12 @@ class CreateMember(BaseModel):
     department_id: Optional[str]
     date_joined: Optional[datetime]
 
-
     class Config:
         from_attributes = True
 
 
 class MemberSchema(CreateMember):
     id: Optional[str]
+
+    class Config:
+        from_attributes = True

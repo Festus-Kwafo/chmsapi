@@ -1,117 +1,33 @@
-2024-02-08 09:22:54.666 | INFO     | __main__:<module>:18 - Start FastAPI Application
-2024-02-08 09:23:01.348 | INFO     | src.middleware.access_middleware:dispatch:16 - 200 127.0.0.1 GET http://127.0.0.1:8000/ 0:00:00.003000
-{"message": "Start FastAPI Application", "time": "2024-02-12T17:01:45.216318"}
-{"message": "Database connection is successful", "time": "2024-02-12T18:43:07.291173"}
-{"message": "Database connection is successful", "time": "2024-02-12T18:46:51.662104"}
-{"message": "Database connection is successful", "time": "2024-02-12T18:47:49.336142"}
-{"message": "Database connection is successful", "time": "2024-02-12T18:48:04.337708"}
-{"message": "Database connection is successful", "time": "2024-02-12T18:49:41.166959"}
-{"message": "Database connection is successful", "time": "2024-02-12T18:50:04.360631"}
-{"message": "Database connection is successful", "time": "2024-02-12T18:51:27.555666"}
-{"message": "Database connection is successful", "time": "2024-02-12T18:53:40.364661"}
-{"message": "Database connection is successful", "time": "2024-02-12T18:53:55.927043"}
-{"message": "Database connection is successful", "time": "2024-02-12T18:54:46.429228"}
-{"message": "Database connection is successful", "time": "2024-02-12T18:56:58.468473"}
-{"message": "Database connection is successful", "time": "2024-02-12T19:06:57.257668"}
-{"message": "Database connection is successful", "time": "2024-02-12T19:07:04.796798"}
-{"message": "Database connection is successful", "time": "2024-02-12T19:08:11.140339"}
-{"message": "Database connection is successful", "time": "2024-02-12T19:08:18.445473"}
-{"message": "Database connection is successful", "time": "2024-02-13T08:58:56.952085"}
-{"message": "Database connection is successful", "time": "2024-02-13T09:00:08.698772"}
-{"message": "Start FastAPI Application", "time": "2024-02-13T18:07:58.102565"}
-{"message": "200 127.0.0.1 GET http://localhost:8000/ 0:00:00.000964", "time": "2024-02-13T18:08:24.931807"}
-{"message": "200 127.0.0.1 GET http://localhost:8000/api/v1/docs 0:00:00.000507", "time": "2024-02-13T18:08:29.815791"}
-{"message": "200 127.0.0.1 GET http://localhost:8000/api/v1/openapi 0:00:00.000999", "time": "2024-02-13T18:08:29.984273"}
-{"message": "Database connection is successful", "time": "2024-02-13T18:36:08.355100"}
-{"message": "Database connection is successful", "time": "2024-02-13T18:36:22.404691"}
-{"message": "Database connection is successful", "time": "2024-02-13T18:36:45.016116"}
-{"message": "Database connection is successful", "time": "2024-02-13T18:36:50.928733"}
-{"message": "Database connection is successful", "time": "2024-02-13T18:37:07.492309"}
-{"message": "200 127.0.0.1 GET http://localhost:8000/api/v1/docs 0:00:00", "time": "2024-02-13T18:37:16.492173"}
-{"message": "200 127.0.0.1 GET http://localhost:8000/api/v1/openapi 0:00:00.010919", "time": "2024-02-13T18:37:16.686781"}
-{"message": "Database connection is successful", "time": "2024-02-13T18:39:33.222691"}
-{"message": "Database connection is successful", "time": "2024-02-13T18:41:01.986276"}
-{"message": "Database connection is successful", "time": "2024-02-13T19:10:43.814462"}
-{"message": "Database connection is successful", "time": "2024-02-13T19:11:29.072470"}
-{"message": "Database connection is successful", "time": "2024-02-13T19:11:46.512669"}
-{"message": "Database connection is successful", "time": "2024-02-13T19:13:47.806796"}
-{"message": "Database connection is successful", "time": "2024-02-13T19:17:08.848220"}
-{"message": "Database connection is successful", "time": "2024-02-13T19:17:36.367530"}
-{"message": "Database connection is successful", "time": "2024-02-13T19:18:56.989252"}
-{"message": "Database connection is successful", "time": "2024-02-13T19:19:15.212279"}
-{"message": "Database connection is successful", "time": "2024-02-13T19:19:19.400301"}
-{"message": "Database connection is successful", "time": "2024-02-13T19:19:46.219929"}
-{"message": "Database connection is successful", "time": "2024-02-13T19:20:01.005292"}
-{"message": "Database connection is successful", "time": "2024-02-13T19:20:06.798024"}
-{"message": "Database connection is successful", "time": "2024-02-13T19:20:20.261701"}
-{"message": "Database connection is successful", "time": "2024-02-13T19:20:26.006258"}
-{"message": "Database connection is successful", "time": "2024-02-13T19:22:59.267122"}
-{"message": "Database connection is successful", "time": "2024-02-13T19:23:47.575556"}
-{"message": "Database connection is successful", "time": "2024-02-13T19:25:21.557626"}
-{"message": "Database connection is successful", "time": "2024-02-13T19:25:24.922108"}
-{"message": "Database connection is successful", "time": "2024-02-13T19:25:27.702101"}
-{"message": "Database connection is successful", "time": "2024-02-13T19:25:47.428299"}
-{"message": "Database connection is successful", "time": "2024-02-13T19:25:57.271274"}
-{"message": "Database connection is successful", "time": "2024-02-13T19:33:39.907948"}
-{"message": "Database connection is successful", "time": "2024-02-13T19:36:05.240531"}
-{"message": "Database connection is successful", "time": "2024-02-13T19:36:26.112443"}
-{"message": "200 127.0.0.1 GET http://localhost:8000/api/v1/docs 0:00:00.001000", "time": "2024-02-13T19:36:32.637358"}
-{"message": "200 127.0.0.1 GET http://localhost:8000/api/v1/openapi 0:00:00.012002", "time": "2024-02-13T19:36:32.862410"}
-{"message": "Database connection is successful", "time": "2024-02-13T19:37:19.505179"}
-{"message": "Start FastAPI Application", "time": "2024-02-13T19:37:19.526178"}
-{"message": "Database connection is successful", "time": "2024-02-13T19:37:21.354923"}
-{"message": "Database connection is successful", "time": "2024-02-13T19:40:19.205496"}
-{"message": "422 127.0.0.1 POST http://localhost:8000/api/v1/member/register 0:00:00.001964", "time": "2024-02-13T19:40:45.481325"}
-{"message": "200 127.0.0.1 GET http://localhost:8000/api/v1/docs 0:00:00", "time": "2024-02-13T19:41:17.544384"}
-{"message": "200 127.0.0.1 GET http://localhost:8000/api/v1/openapi 0:00:00.008998", "time": "2024-02-13T19:41:17.793642"}
-{"message": "Database connection is successful", "time": "2024-02-13T19:42:35.590965"}
-{"message": "Database connection is successful", "time": "2024-02-13T19:42:57.616755"}
-{"message": "Database connection is successful", "time": "2024-02-13T19:43:02.277862"}
-{"message": "Database connection is successful", "time": "2024-02-13T19:43:06.455266"}
-{"message": "Database connection is successful", "time": "2024-02-13T19:43:31.502599"}
-{"message": "200 127.0.0.1 POST http://localhost:8000/api/v1/member/register 0:00:00.002029", "time": "2024-02-13T19:43:34.254345"}
-{"message": "Database connection is successful", "time": "2024-02-13T19:43:54.831879"}
-{"message": "Database connection is successful", "time": "2024-02-13T19:47:05.651634"}
-{"message": "Database connection is successful", "time": "2024-02-13T19:47:14.281719"}
-{"message": "Database connection is successful", "time": "2024-02-13T19:47:19.365809"}
-{"message": "Database connection is successful", "time": "2024-02-13T19:48:08.502172"}
-{"message": "Database connection is successful", "time": "2024-02-14T10:10:15.255597"}
-{"message": "Start FastAPI Application", "time": "2024-02-14T10:10:15.370817"}
-{"message": "Database connection is successful", "time": "2024-02-14T10:10:18.404889"}
-{"message": "200 127.0.0.1 GET http://localhost:8000/api/v1/docs 0:00:00", "time": "2024-02-14T10:11:18.177051"}
-{"message": "200 127.0.0.1 GET http://localhost:8000/api/v1/openapi 0:00:00.009799", "time": "2024-02-14T10:11:18.406652"}
-{"message": "Database connection is successful", "time": "2024-02-14T10:12:12.204942"}
-{"message": "Database connection is successful", "time": "2024-02-14T10:13:34.722931"}
-{"message": "Database connection is successful", "time": "2024-02-14T10:15:30.981277"}
-{"message": "Database connection is successful", "time": "2024-02-14T10:15:40.589016"}
-{"message": "Start FastAPI Application", "time": "2024-02-14T10:15:40.620615"}
-{"message": "Database connection is successful", "time": "2024-02-14T10:15:43.708939"}
-{"message": "200 127.0.0.1 GET http://localhost:8000/api/v1/docs 0:00:00.001084", "time": "2024-02-14T10:15:47.207012"}
-{"message": "200 127.0.0.1 GET http://localhost:8000/api/v1/openapi 0:00:00.010603", "time": "2024-02-14T10:15:47.501882"}
-{"message": "Database connection is successful", "time": "2024-02-14T10:16:19.843681"}
-{"message": "Database connection is successful", "time": "2024-02-14T10:17:35.041392"}
-{"message": "Database connection is successful", "time": "2024-02-14T10:17:42.526265"}
-{"message": "Database connection is successful", "time": "2024-02-14T10:19:47.045420"}
-{"message": "Database connection is successful", "time": "2024-02-14T10:19:55.885406"}
-{"message": "200 127.0.0.1 POST http://localhost:8000/api/v1/member/register 0:00:00.005075", "time": "2024-02-14T10:19:57.725481"}
-{"message": "Database connection is successful", "time": "2024-02-14T10:20:25.988723"}
-{"message": "Database connection is successful", "time": "2024-02-14T10:21:35.133200"}
-{"message": "200 127.0.0.1 POST http://localhost:8000/api/v1/member/register 0:00:00.010989", "time": "2024-02-14T10:21:35.274958"}
-{"message": "Database connection is successful", "time": "2024-02-14T10:22:54.901838"}
-{"message": "Database connection is successful", "time": "2024-02-14T10:23:00.946915"}
-{"message": "Database connection is successful", "time": "2024-02-14T10:23:09.642113"}
-{"message": "Database connection is successful", "time": "2024-02-14T10:23:38.749252"}
-{"message": "Database connection is successful", "time": "2024-02-14T10:24:06.872056"}
-{"message": "Database connection is successful", "time": "2024-02-14T10:25:35.253050"}
-{"message": "Database connection is successful", "time": "2024-02-14T10:25:42.058789"}
-{"message": "200 127.0.0.1 GET http://localhost:8000/api/v1/docs 0:00:00", "time": "2024-02-14T10:25:42.622225"}
-{"message": "200 127.0.0.1 GET http://localhost:8000/api/v1/openapi 0:00:00.010061", "time": "2024-02-14T10:25:42.957231"}
-{"message": "Database connection is successful", "time": "2024-02-14T10:28:55.163516"}
-{"message": "Database connection is successful", "time": "2024-02-14T10:29:47.408817"}
-{"message": "Database connection is successful", "time": "2024-02-14T10:29:54.173939"}
-{"message": "Database connection is successful", "time": "2024-02-14T10:30:33.894528"}
-{"message": "Database connection is successful", "time": "2024-02-14T10:30:58.866683"}
-{"message": "Database connection is successful", "time": "2024-02-14T10:31:15.697867"}
-{"message": "Database connection is successful", "time": "2024-02-14T10:32:43.937789"}
-{"message": "Database connection is successful", "time": "2024-02-14T10:33:41.511839"}
-{"message": "Database connection is successful", "time": "2024-02-14T10:33:56.986376"}
+{"message": "Database connection is successful", "time": "2024-02-14T11:42:00.520626"}
+{"message": "Database connection is successful", "time": "2024-02-14T11:44:11.810855"}
+{"message": "Database connection is successful", "time": "2024-02-14T11:45:32.123886"}
+{"message": "200 127.0.0.1 GET http://localhost:8000/api/v1/member/all?page=1&size=50 0:00:00.161668", "time": "2024-02-14T11:45:36.130800"}
+{"message": "Database connection is successful", "time": "2024-02-14T11:46:51.591638"}
+{"message": "Database connection is successful", "time": "2024-02-14T11:47:06.799428"}
+{"message": "Database connection is successful", "time": "2024-02-14T11:47:11.711495"}
+{"message": "200 127.0.0.1 GET http://localhost:8000/api/v1/member/all?page=1&size=50 0:00:00.099008", "time": "2024-02-14T11:47:12.090442"}
+{"message": "Database connection is successful", "time": "2024-02-14T11:49:02.962321"}
+{"message": "Database connection is successful", "time": "2024-02-14T11:49:19.319862"}
+{"message": "200 127.0.0.1 GET http://localhost:8000/api/v1/member/all?page=1&size=50 0:00:00.100498", "time": "2024-02-14T11:49:19.697047"}
+{"message": "Database connection is successful", "time": "2024-02-14T11:51:42.421369"}
+{"message": "Database connection is successful", "time": "2024-02-14T11:51:47.597475"}
+{"message": "Database connection is successful", "time": "2024-02-14T11:53:38.099151"}
+{"message": "200 127.0.0.1 GET http://localhost:8000/api/v1/docs 0:00:00", "time": "2024-02-14T11:53:38.361116"}
+{"message": "200 127.0.0.1 GET http://localhost:8000/api/v1/openapi 0:00:00.016147", "time": "2024-02-14T11:53:38.669572"}
+{"message": "200 127.0.0.1 POST http://localhost:8000/api/v1/member/2/ 0:00:00", "time": "2024-02-14T11:53:49.063317"}
+{"message": "Database connection is successful", "time": "2024-02-14T12:00:17.265399"}
+{"message": "Database connection is successful", "time": "2024-02-14T12:00:35.209252"}
+{"message": "Database connection is successful", "time": "2024-02-14T12:00:43.401461"}
+{"message": "Database connection is successful", "time": "2024-02-14T12:00:47.979705"}
+{"message": "Database connection is successful", "time": "2024-02-14T12:02:03.696575"}
+{"message": "Database connection is successful", "time": "2024-02-14T12:02:21.251009"}
+{"message": "Database connection is successful", "time": "2024-02-14T12:02:49.759059"}
+{"message": "Database connection is successful", "time": "2024-02-14T12:03:36.259616"}
+{"message": "Database connection is successful", "time": "2024-02-14T12:04:06.983223"}
+{"message": "200 127.0.0.1 POST http://localhost:8000/api/v1/member/2/ 0:00:00.001005", "time": "2024-02-14T12:04:20.021439"}
+{"message": "Database connection is successful", "time": "2024-02-14T12:05:05.155020"}
+{"message": "Database connection is successful", "time": "2024-02-14T12:05:35.011411"}
+{"message": "Database connection is successful", "time": "2024-02-14T12:07:46.307200"}
+{"message": "404 127.0.0.1 POST http://localhost:8000/api/v1/member/2/ 0:00:00.049000", "time": "2024-02-14T12:07:46.659649"}
+{"message": "Database connection is successful", "time": "2024-02-14T12:10:25.217557"}
+{"message": "404 127.0.0.1 POST http://localhost:8000/api/v1/member/2/ 0:00:00.046019", "time": "2024-02-14T12:10:25.516346"}

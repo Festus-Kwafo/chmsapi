@@ -28,7 +28,7 @@ class CustomError(BaseExceptionMixin):
 
 
 class RequestError(BaseExceptionMixin):
-    code = s.HTTP_400
+    code = status.HTTP_400_BAD_REQUEST
 
     def __init__(self, *, msg: str = 'Bad Request', data: Any = None, background: BackgroundTask | None = None):
         super().__init__(msg=msg, data=data, background=background)

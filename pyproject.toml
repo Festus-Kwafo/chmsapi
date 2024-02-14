@@ -21,6 +21,7 @@ asyncmy = "^0.2.9"
 python-ulid = "^2.2.0"
 python-multipart = "^0.0.9"
 python-jose = {extras = ["cryptography"], version = "^3.3.0"}
+fastapi-pagination = "^0.12.15"
 
 
 [build-system]
