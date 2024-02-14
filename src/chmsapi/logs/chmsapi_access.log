@@ -59,3 +59,24 @@
 {"message": "Database connection is successful", "time": "2024-02-14T12:42:11.920693"}
 {"message": "Database connection is successful", "time": "2024-02-14T12:43:32.591761"}
 {"message": "Database connection is successful", "time": "2024-02-14T12:43:41.158146"}
+{"message": "Database connection is successful", "time": "2024-02-14T12:46:08.090375"}
+{"message": "200 127.0.0.1 GET http://localhost:8000/api/v1/docs 0:00:00", "time": "2024-02-14T12:46:08.346635"}
+{"message": "200 127.0.0.1 GET http://localhost:8000/api/v1/openapi 0:00:00.027522", "time": "2024-02-14T12:46:08.665131"}
+{"message": "Database connection is successful", "time": "2024-02-14T12:46:50.046384"}
+{"message": "Database connection is successful", "time": "2024-02-14T12:47:28.988982"}
+{"message": "Database connection is successful", "time": "2024-02-14T12:48:06.595936"}
+{"message": "Database connection is successful", "time": "2024-02-14T12:48:13.051542"}
+{"message": "Database connection is successful", "time": "2024-02-14T12:48:35.258494"}
+{"message": "Database connection is successful", "time": "2024-02-14T12:49:05.317712"}
+{"message": "Database connection is successful", "time": "2024-02-14T12:49:11.955126"}
+{"message": "Database connection is successful", "time": "2024-02-14T12:51:59.695484"}
+{"message": "Database connection is successful", "time": "2024-02-14T12:52:13.322089"}
+{"message": "Database connection is successful", "time": "2024-02-14T12:52:39.958683"}
+{"message": "Database connection is successful", "time": "2024-02-14T12:54:50.085088"}
+{"message": "Database connection is successful", "time": "2024-02-14T12:56:18.912384"}
+{"message": "Database connection is successful", "time": "2024-02-14T12:56:43.785656"}
+{"message": "Database connection is successful", "time": "2024-02-14T12:56:56.326410"}
+{"message": "200 127.0.0.1 GET http://localhost:8000/api/v1/docs 0:00:00", "time": "2024-02-14T12:56:56.632215"}
+{"message": "200 127.0.0.1 GET http://localhost:8000/api/v1/openapi 0:00:00.026538", "time": "2024-02-14T12:56:56.989186"}
+{"message": "Database connection is successful", "time": "2024-02-14T12:57:16.191617"}
+{"message": "Database connection is successful", "time": "2024-02-14T12:57:35.309875"}
