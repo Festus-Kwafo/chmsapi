@@ -11,9 +11,8 @@ from src.chmsapi.common.enums import GenderEnum, MaritalStatusEnum, EducationLev
 
 
 class DateTimeMixin(MappedAsDataclass):
-    created_date: Mapped[datetime] = mapped_column(init=False, sort_order=999,
-                                                   default_factory=datetime.now(timezone.utc))
-    updated_date: Mapped[datetime] = mapped_column(init=False, sort_order=999, onupdate=datetime.now(timezone.utc))
+    created_date: Mapped[datetime] = mapped_column(init=False, sort_order=999, default=datetime.now(timezone.utc))
+    updated_date: Mapped[datetime] = mapped_column(init=False, sort_order=999, default=datetime.now(timezone.utc), onupdate=datetime.now(timezone.utc))
 
 
 class MappedBase(DeclarativeBase):
@@ -32,7 +31,7 @@ class Base(DataClassBase, DateTimeMixin):
 
 
 id_key = Annotated[
-    int, mapped_column(String(50), primary_key=True, default_factory=ULID.from_datetime(datetime.utcnow()), unique=True)
+    str, mapped_column(String(50), primary_key=True, default=ULID.from_datetime(datetime.utcnow()), unique=True)
 ]
 
 Gender: mysql_enum = mysql_enum(GenderEnum, name="gender", create_constraint=True,

@@ -12,5 +12,3 @@ class Department(Base):
     id: Mapped[id_key] = mapped_column(init=False)
     name: Mapped[str] = mapped_column(String(100), default=None)
     leader: Mapped[str] = mapped_column(ForeignKey("member.id"), default=None)
-
-    members: Mapped[list[Member]] = relationship(default=None)

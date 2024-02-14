@@ -14,5 +14,3 @@ class AttendanceSettings(Base):
     service_name: Mapped[str] = mapped_column(String(50), default=None)
     start_time: Mapped[datetime] = mapped_column(DATETIME, default=None)
     end_time: Mapped[datetime] = mapped_column(DATETIME, default=None)
-
-    attendance: Mapped[list[Attendance]] = relationship(default=None)

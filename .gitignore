@@ -1,4 +1,4 @@
 .idea
-src/chmsapi/.env
+.env
 var/
 *.log

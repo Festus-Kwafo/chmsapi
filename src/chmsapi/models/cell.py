@@ -6,6 +6,7 @@ from sqlalchemy.orm import Mapped, mapped_column, relationship
 from src.chmsapi.models.base import Base
 from src.chmsapi.models.base import id_key
 from src.chmsapi.models.member import Member
+from typing import List
 
 
 class Cell(Base):
@@ -18,4 +19,3 @@ class Cell(Base):
     constituency_id: Mapped[str] = mapped_column(ForeignKey("constituency.id"), default=None)
     date_started: Mapped[datetime] = mapped_column(DATETIME, default=None)
 
-    members: Mapped[list[Member]] = relationship(default=None)
