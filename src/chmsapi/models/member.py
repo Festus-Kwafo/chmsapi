@@ -28,5 +28,5 @@ class Member(Base):
     leadership_role: Mapped[LeadershipRole] = Column(LeadershipRole, nullable=False, comment="Leadership role in the "
                                                                                              "church")
     cell_id: Mapped[str] = mapped_column(ForeignKey("cell.id"), default=None, nullable=True)
-    department_id: Mapped[str] = mapped_column(ForeignKey("department.id"), default=None)
+    department_id: Mapped[str] = mapped_column(ForeignKey("department.id"), default=None, nullable=True)
     date_joined: Mapped[datetime] = mapped_column(DateTime, default=None)

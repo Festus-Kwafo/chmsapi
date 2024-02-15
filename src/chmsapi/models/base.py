@@ -31,8 +31,12 @@ class Base(DataClassBase, DateTimeMixin):
     __abstract__ = True
 
 
+def generate_id():
+    return str(ULID.from_datetime(datetime.now(timezone.utc)))
+
+
 id_key = Annotated[
-    str, mapped_column(String(50), primary_key=True, default=ULID.from_datetime(datetime.utcnow()), unique=True)
+    str, mapped_column(String(50), primary_key=True, default=generate_id(), unique=True)
 ]
 
 Gender: mysql_enum = mysql_enum(GenderEnum, name="gender", create_constraint=True,

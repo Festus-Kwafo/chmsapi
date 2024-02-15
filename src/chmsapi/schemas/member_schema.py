@@ -21,8 +21,6 @@ class CreateMember(BaseModel):
     educational_level: EducationLevelEnum
     membership_status: MembershipStatusEnum
     leadership_role: LeadershipRoleEnum
-    cell_id: Optional[str]
-    department_id: Optional[str]
     date_joined: Optional[datetime]
 
     class Config:
@@ -37,6 +35,9 @@ class MemberSchema(CreateMember):
 
 
 class UpdateMemberSchema(CreateMember):
+    cell_id: Optional[str]
+    department_id: Optional[str]
+
     class Config:
         from_attributes = True
         populate_by_name = True
