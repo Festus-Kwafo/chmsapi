@@ -6,8 +6,7 @@ from typing import Optional
 class CreateConstituencySchema(BaseModel):
     name: Optional[str]
     location: Optional[str]
-    leader_id: Optional[str]
-    cell_id: Optional[str]
+    leader: Optional[str]
     date_started: Optional[datetime]
 
     class Config:

@@ -1,176 +1,39 @@
-{"message": "Database connection is successful", "time": "2024-02-14T11:42:00.520626"}
-{"message": "Database connection is successful", "time": "2024-02-14T11:44:11.810855"}
-{"message": "Database connection is successful", "time": "2024-02-14T11:45:32.123886"}
-{"message": "200 127.0.0.1 GET http://localhost:8000/api/v1/member/all?page=1&size=50 0:00:00.161668", "time": "2024-02-14T11:45:36.130800"}
-{"message": "Database connection is successful", "time": "2024-02-14T11:46:51.591638"}
-{"message": "Database connection is successful", "time": "2024-02-14T11:47:06.799428"}
-{"message": "Database connection is successful", "time": "2024-02-14T11:47:11.711495"}
-{"message": "200 127.0.0.1 GET http://localhost:8000/api/v1/member/all?page=1&size=50 0:00:00.099008", "time": "2024-02-14T11:47:12.090442"}
-{"message": "Database connection is successful", "time": "2024-02-14T11:49:02.962321"}
-{"message": "Database connection is successful", "time": "2024-02-14T11:49:19.319862"}
-{"message": "200 127.0.0.1 GET http://localhost:8000/api/v1/member/all?page=1&size=50 0:00:00.100498", "time": "2024-02-14T11:49:19.697047"}
-{"message": "Database connection is successful", "time": "2024-02-14T11:51:42.421369"}
-{"message": "Database connection is successful", "time": "2024-02-14T11:51:47.597475"}
-{"message": "Database connection is successful", "time": "2024-02-14T11:53:38.099151"}
-{"message": "200 127.0.0.1 GET http://localhost:8000/api/v1/docs 0:00:00", "time": "2024-02-14T11:53:38.361116"}
-{"message": "200 127.0.0.1 GET http://localhost:8000/api/v1/openapi 0:00:00.016147", "time": "2024-02-14T11:53:38.669572"}
-{"message": "200 127.0.0.1 POST http://localhost:8000/api/v1/member/2/ 0:00:00", "time": "2024-02-14T11:53:49.063317"}
-{"message": "Database connection is successful", "time": "2024-02-14T12:00:17.265399"}
-{"message": "Database connection is successful", "time": "2024-02-14T12:00:35.209252"}
-{"message": "Database connection is successful", "time": "2024-02-14T12:00:43.401461"}
-{"message": "Database connection is successful", "time": "2024-02-14T12:00:47.979705"}
-{"message": "Database connection is successful", "time": "2024-02-14T12:02:03.696575"}
-{"message": "Database connection is successful", "time": "2024-02-14T12:02:21.251009"}
-{"message": "Database connection is successful", "time": "2024-02-14T12:02:49.759059"}
-{"message": "Database connection is successful", "time": "2024-02-14T12:03:36.259616"}
-{"message": "Database connection is successful", "time": "2024-02-14T12:04:06.983223"}
-{"message": "200 127.0.0.1 POST http://localhost:8000/api/v1/member/2/ 0:00:00.001005", "time": "2024-02-14T12:04:20.021439"}
-{"message": "Database connection is successful", "time": "2024-02-14T12:05:05.155020"}
-{"message": "Database connection is successful", "time": "2024-02-14T12:05:35.011411"}
-{"message": "Database connection is successful", "time": "2024-02-14T12:07:46.307200"}
-{"message": "404 127.0.0.1 POST http://localhost:8000/api/v1/member/2/ 0:00:00.049000", "time": "2024-02-14T12:07:46.659649"}
-{"message": "Database connection is successful", "time": "2024-02-14T12:10:25.217557"}
-{"message": "404 127.0.0.1 POST http://localhost:8000/api/v1/member/2/ 0:00:00.046019", "time": "2024-02-14T12:10:25.516346"}
-{"message": "Database connection is successful", "time": "2024-02-14T12:28:04.003528"}
-{"message": "Database connection is successful", "time": "2024-02-14T12:30:08.398497"}
-{"message": "Database connection is successful", "time": "2024-02-14T12:30:37.003558"}
-{"message": "Database connection is successful", "time": "2024-02-14T12:30:45.544101"}
-{"message": "Database connection is successful", "time": "2024-02-14T12:31:20.124317"}
-{"message": "Database connection is successful", "time": "2024-02-14T12:31:41.966125"}
-{"message": "Database connection is successful", "time": "2024-02-14T12:32:20.164761"}
-{"message": "Database connection is successful", "time": "2024-02-14T12:32:28.241137"}
-{"message": "Database connection is successful", "time": "2024-02-14T12:32:35.546104"}
-{"message": "Database connection is successful", "time": "2024-02-14T12:33:38.122579"}
-{"message": "Database connection is successful", "time": "2024-02-14T12:34:20.595237"}
-{"message": "Database connection is successful", "time": "2024-02-14T12:36:04.918522"}
-{"message": "Database connection is successful", "time": "2024-02-14T12:36:27.000003"}
-{"message": "Database connection is successful", "time": "2024-02-14T12:36:46.371504"}
-{"message": "Database connection is successful", "time": "2024-02-14T12:37:35.265379"}
-{"message": "Database connection is successful", "time": "2024-02-14T12:37:46.350094"}
-{"message": "Database connection is successful", "time": "2024-02-14T12:38:24.106022"}
-{"message": "Database connection is successful", "time": "2024-02-14T12:39:00.504892"}
-{"message": "Database connection is successful", "time": "2024-02-14T12:39:34.961366"}
-{"message": "Database connection is successful", "time": "2024-02-14T12:39:42.024275"}
-{"message": "Database connection is successful", "time": "2024-02-14T12:40:16.372413"}
-{"message": "Database connection is successful", "time": "2024-02-14T12:40:23.596688"}
-{"message": "200 127.0.0.1 GET http://localhost:8000/api/v1/docs 0:00:00.001003", "time": "2024-02-14T12:40:27.833172"}
-{"message": "200 127.0.0.1 GET http://localhost:8000/api/v1/openapi 0:00:00.019998", "time": "2024-02-14T12:40:28.157315"}
-{"message": "Database connection is successful", "time": "2024-02-14T12:41:16.804155"}
-{"message": "Database connection is successful", "time": "2024-02-14T12:42:11.920693"}
-{"message": "Database connection is successful", "time": "2024-02-14T12:43:32.591761"}
-{"message": "Database connection is successful", "time": "2024-02-14T12:43:41.158146"}
-{"message": "Database connection is successful", "time": "2024-02-14T12:46:08.090375"}
-{"message": "200 127.0.0.1 GET http://localhost:8000/api/v1/docs 0:00:00", "time": "2024-02-14T12:46:08.346635"}
-{"message": "200 127.0.0.1 GET http://localhost:8000/api/v1/openapi 0:00:00.027522", "time": "2024-02-14T12:46:08.665131"}
-{"message": "Database connection is successful", "time": "2024-02-14T12:46:50.046384"}
-{"message": "Database connection is successful", "time": "2024-02-14T12:47:28.988982"}
-{"message": "Database connection is successful", "time": "2024-02-14T12:48:06.595936"}
-{"message": "Database connection is successful", "time": "2024-02-14T12:48:13.051542"}
-{"message": "Database connection is successful", "time": "2024-02-14T12:48:35.258494"}
-{"message": "Database connection is successful", "time": "2024-02-14T12:49:05.317712"}
-{"message": "Database connection is successful", "time": "2024-02-14T12:49:11.955126"}
-{"message": "Database connection is successful", "time": "2024-02-14T12:51:59.695484"}
-{"message": "Database connection is successful", "time": "2024-02-14T12:52:13.322089"}
-{"message": "Database connection is successful", "time": "2024-02-14T12:52:39.958683"}
-{"message": "Database connection is successful", "time": "2024-02-14T12:54:50.085088"}
-{"message": "Database connection is successful", "time": "2024-02-14T12:56:18.912384"}
-{"message": "Database connection is successful", "time": "2024-02-14T12:56:43.785656"}
-{"message": "Database connection is successful", "time": "2024-02-14T12:56:56.326410"}
-{"message": "200 127.0.0.1 GET http://localhost:8000/api/v1/docs 0:00:00", "time": "2024-02-14T12:56:56.632215"}
-{"message": "200 127.0.0.1 GET http://localhost:8000/api/v1/openapi 0:00:00.026538", "time": "2024-02-14T12:56:56.989186"}
-{"message": "Database connection is successful", "time": "2024-02-14T12:57:16.191617"}
-{"message": "Database connection is successful", "time": "2024-02-14T12:57:35.309875"}
-{"message": "Database connection is successful", "time": "2024-02-14T13:14:00.597171"}
-{"message": "Database connection is successful", "time": "2024-02-14T13:19:07.243420"}
-{"message": "Database connection is successful", "time": "2024-02-14T13:20:02.264545"}
-{"message": "Database connection is successful", "time": "2024-02-14T13:20:24.969863"}
-{"message": "Database connection is successful", "time": "2024-02-14T13:35:49.619001"}
-{"message": "Database connection is successful", "time": "2024-02-14T13:35:54.389905"}
-{"message": "Database connection is successful", "time": "2024-02-14T13:36:14.790567"}
-{"message": "Database connection is successful", "time": "2024-02-14T13:37:25.068703"}
-{"message": "200 127.0.0.1 GET http://localhost:8000/api/v1/docs 0:00:00.007989", "time": "2024-02-14T14:46:56.912791"}
-{"message": "200 127.0.0.1 GET http://localhost:8000/api/v1/openapi 0:00:00.068975", "time": "2024-02-14T14:46:57.267588"}
-{"message": "Database connection is successful", "time": "2024-02-14T14:48:52.341276"}
-{"message": "Database connection is successful", "time": "2024-02-14T14:49:22.576289"}
-{"message": "200 127.0.0.1 GET http://localhost:8000/api/v1/docs 0:00:00", "time": "2024-02-14T14:49:35.579113"}
-{"message": "200 127.0.0.1 GET http://localhost:8000/api/v1/openapi 0:00:00.002003", "time": "2024-02-14T14:49:35.913853"}
-{"message": "200 127.0.0.1 POST http://localhost:8000/api/v1/member/register 0:00:00.134380", "time": "2024-02-14T14:50:25.271314"}
-{"message": "200 127.0.0.1 GET http://localhost:8000/api/v1/docs 0:00:00", "time": "2024-02-14T14:51:43.706911"}
-{"message": "200 127.0.0.1 GET http://localhost:8000/api/v1/openapi 0:00:00.001997", "time": "2024-02-14T14:51:44.138635"}
-{"message": "Database connection is successful", "time": "2024-02-14T14:53:25.339786"}
-{"message": "200 127.0.0.1 POST http://localhost:8000/api/v1/member/register 0:00:00.059558", "time": "2024-02-14T14:53:27.627469"}
-{"message": "Database connection is successful", "time": "2024-02-14T14:57:46.888920"}
-{"message": "200 127.0.0.1 GET http://localhost:8000/api/v1/docs 0:00:00.001033", "time": "2024-02-14T14:57:47.211394"}
-{"message": "200 127.0.0.1 GET http://localhost:8000/api/v1/openapi 0:00:00.058531", "time": "2024-02-14T14:57:47.764587"}
-{"message": "200 127.0.0.1 POST http://localhost:8000/api/v1/member/register 0:00:00.012999", "time": "2024-02-14T14:58:34.336384"}
-{"message": "200 127.0.0.1 GET http://localhost:8000/api/v1/docs 0:00:00.001001", "time": "2024-02-14T14:59:10.449847"}
-{"message": "200 127.0.0.1 GET http://localhost:8000/api/v1/openapi 0:00:00.001998", "time": "2024-02-14T14:59:10.778572"}
-{"message": "Database connection is successful", "time": "2024-02-14T15:01:32.663920"}
-{"message": "Database connection is successful", "time": "2024-02-14T15:03:06.928893"}
-{"message": "Database connection is successful", "time": "2024-02-14T15:03:12.091605"}
-{"message": "500 127.0.0.1 POST http://localhost:8000/api/v1/member/register 0:00:00.055004", "time": "2024-02-14T15:03:12.481570"}
-{"message": "Database connection is successful", "time": "2024-02-14T15:03:26.551856"}
-{"message": "403 127.0.0.1 POST http://localhost:8000/api/v1/member/register 0:00:00.058005", "time": "2024-02-14T15:03:27.004005"}
-{"message": "Database connection is successful", "time": "2024-02-14T15:03:42.517655"}
-{"message": "401 127.0.0.1 POST http://localhost:8000/api/v1/member/register 0:00:00.049462", "time": "2024-02-14T15:03:42.895362"}
-{"message": "Database connection is successful", "time": "2024-02-14T15:04:00.003640"}
-{"message": "Database connection is successful", "time": "2024-02-14T15:04:16.856749"}
-{"message": "409 127.0.0.1 POST http://localhost:8000/api/v1/member/register 0:00:00.052001", "time": "2024-02-14T15:04:17.781749"}
-{"message": "Database connection is successful", "time": "2024-02-14T15:04:54.122386"}
-{"message": "422 127.0.0.1 POST http://localhost:8000/api/v1/member/register 0:00:00.053529", "time": "2024-02-14T15:04:57.683408"}
-{"message": "Database connection is successful", "time": "2024-02-15T09:43:11.308859"}
-{"message": "Database connection is successful", "time": "2024-02-15T09:43:41.122150"}
-{"message": "Database connection is successful", "time": "2024-02-15T09:43:55.095404"}
-{"message": "Database connection is successful", "time": "2024-02-15T09:44:07.252701"}
-{"message": "Database connection is successful", "time": "2024-02-15T10:13:06.800854"}
-{"message": "Database connection is successful", "time": "2024-02-15T10:13:14.695503"}
-{"message": "Database connection is successful", "time": "2024-02-15T10:13:22.214267"}
-{"message": "Database connection is successful", "time": "2024-02-15T10:14:15.669361"}
-{"message": "Database connection is successful", "time": "2024-02-15T10:16:40.058011"}
-{"message": "Database connection is successful", "time": "2024-02-15T10:18:24.303370"}
-{"message": "Database connection is successful", "time": "2024-02-15T10:18:31.731317"}
-{"message": "Database connection is successful", "time": "2024-02-15T10:18:45.234622"}
-{"message": "200 127.0.0.1 GET http://localhost:8000/api/v1/docs 0:00:00", "time": "2024-02-15T10:19:08.911204"}
-{"message": "200 127.0.0.1 GET http://localhost:8000/api/v1/openapi 0:00:00.025243", "time": "2024-02-15T10:19:09.467190"}
-{"message": "200 127.0.0.1 GET http://localhost:8000/api/v1/docs 0:00:00", "time": "2024-02-15T10:19:14.562072"}
-{"message": "200 127.0.0.1 GET http://localhost:8000/api/v1/openapi 0:00:00.000895", "time": "2024-02-15T10:19:14.756970"}
-{"message": "Database connection is successful", "time": "2024-02-15T10:19:43.113058"}
-{"message": "Database connection is successful", "time": "2024-02-15T10:19:49.783610"}
-{"message": "200 127.0.0.1 GET http://localhost:8000/api/v1/docs 0:00:00.000999", "time": "2024-02-15T10:19:50.170126"}
-{"message": "200 127.0.0.1 GET http://localhost:8000/api/v1/openapi 0:00:00.058453", "time": "2024-02-15T10:19:50.433760"}
-{"message": "Database connection is successful", "time": "2024-02-15T15:43:59.850838"}
-{"message": "Database connection is successful", "time": "2024-02-15T15:44:42.878051"}
-{"message": "Database connection is successful", "time": "2024-02-15T15:45:49.709695"}
-{"message": "Database connection is successful", "time": "2024-02-15T15:45:58.004200"}
-{"message": "Database connection is successful", "time": "2024-02-15T15:47:21.685865"}
-{"message": "Database connection is successful", "time": "2024-02-15T15:48:01.973963"}
-{"message": "Database connection is successful", "time": "2024-02-15T15:49:52.949284"}
-{"message": "Database connection is successful", "time": "2024-02-15T15:50:16.791718"}
-{"message": "Database connection is successful", "time": "2024-02-15T15:50:24.112975"}
-{"message": "Database connection is successful", "time": "2024-02-15T15:53:23.349362"}
-{"message": "Database connection is successful", "time": "2024-02-15T16:03:47.407608"}
-{"message": "Database connection is successful", "time": "2024-02-15T16:08:12.498908"}
-{"message": "Database connection is successful", "time": "2024-02-15T16:08:36.694362"}
-{"message": "Database connection is successful", "time": "2024-02-15T16:08:54.316814"}
-{"message": "Database connection is successful", "time": "2024-02-15T16:09:07.053132"}
-{"message": "Database connection is successful", "time": "2024-02-15T16:09:34.223465"}
-{"message": "Database connection is successful", "time": "2024-02-15T16:10:19.536052"}
-{"message": "Database connection is successful", "time": "2024-02-15T16:11:00.862717"}
-{"message": "Database connection is successful", "time": "2024-02-15T16:11:14.788036"}
-{"message": "Database connection is successful", "time": "2024-02-15T16:13:20.960996"}
-{"message": "Database connection is successful", "time": "2024-02-15T16:14:53.529915"}
-{"message": "Database connection is successful", "time": "2024-02-15T16:15:48.073137"}
-{"message": "Database connection is successful", "time": "2024-02-15T16:16:06.899576"}
-{"message": "Database connection is successful", "time": "2024-02-15T16:16:59.920111"}
-{"message": "Database connection is successful", "time": "2024-02-15T16:17:19.935641"}
-{"message": "Database connection is successful", "time": "2024-02-15T16:17:25.482201"}
-{"message": "Database connection is successful", "time": "2024-02-15T16:17:44.502079"}
-{"message": "Database connection is successful", "time": "2024-02-15T16:18:12.383986"}
-{"message": "Database connection is successful", "time": "2024-02-15T16:18:32.924154"}
-{"message": "Database connection is successful", "time": "2024-02-15T16:18:38.744789"}
-{"message": "Database connection is successful", "time": "2024-02-15T16:19:30.442483"}
-{"message": "Database connection is successful", "time": "2024-02-15T16:19:41.634526"}
-{"message": "Database connection is successful", "time": "2024-02-15T16:20:49.193868"}
-{"message": "Database connection is successful", "time": "2024-02-15T16:21:08.024024"}
-{"message": "Database connection is successful", "time": "2024-02-15T16:21:27.528256"}
-{"message": "Database connection is successful", "time": "2024-02-15T16:21:33.200188"}
+{"message": "Database connection is successful", "time": "2024-02-16T10:14:30.008917"}
+{"message": "Inside create_member", "time": "2024-02-16T10:14:30.482399"}
+{"message": "Creating member {'first_name': 'Yaw ', 'last_name': 'Kofi', 'email': 'string', 'dob': datetime.datetime(2024, 2, 16, 9, 49, 58, 1000, tzinfo=TzInfo(UTC)), 'phone_number': 'string', 'gender': <GenderEnum.MALE: 'MALE'>, 'nationality': 'string', 'marital_status': <MaritalStatusEnum.SINGLE: ' SINGLE'>, 'address': 'string', 'gps_address': 'string', 'educational_level': <EducationLevelEnum.TERTIARY: 'TERTIARY'>, 'membership_status': <MembershipStatusEnum.MEMBER: 'MEMBER'>, 'leadership_role': <LeadershipRoleEnum.DEACON: 'DEACON'>, 'date_joined': datetime.datetime(2024, 2, 16, 9, 49, 58, 1000, tzinfo=TzInfo(UTC))}", "time": "2024-02-16T10:14:30.482399"}
+{"message": "Member.cell and back-reference Cell.leader are both of the same direction <RelationshipDirection.MANYTOONE: 2>.  Did you mean to set remote_side on the many-to-one side ?", "time": "2024-02-16T10:14:30.496411"}
+{"message": "422 127.0.0.1 POST http://localhost:8000/api/v1/member/register 0:00:00.019526", "time": "2024-02-16T10:14:30.498412"}
+{"message": "Database connection is successful", "time": "2024-02-16T10:16:30.347304"}
+{"message": "Database connection is successful", "time": "2024-02-16T10:17:07.350652"}
+{"message": "Database connection is successful", "time": "2024-02-16T10:17:15.599162"}
+{"message": "Database connection is successful", "time": "2024-02-16T10:26:20.858443"}
+{"message": "Database connection is successful", "time": "2024-02-16T10:30:15.304997"}
+{"message": "Database connection is successful", "time": "2024-02-16T10:30:48.116522"}
+{"message": "Database connection is successful", "time": "2024-02-16T10:32:00.205760"}
+{"message": "Inside create_member", "time": "2024-02-16T10:32:32.987158"}
+{"message": "Creating member {'first_name': 'Yaw ', 'last_name': 'Kofi', 'email': 'string', 'dob': datetime.datetime(2024, 2, 16, 9, 49, 58, 1000, tzinfo=TzInfo(UTC)), 'phone_number': 'string', 'gender': <GenderEnum.MALE: 'MALE'>, 'nationality': 'string', 'marital_status': <MaritalStatusEnum.SINGLE: ' SINGLE'>, 'address': 'string', 'gps_address': 'string', 'educational_level': <EducationLevelEnum.TERTIARY: 'TERTIARY'>, 'membership_status': <MembershipStatusEnum.MEMBER: 'MEMBER'>, 'leadership_role': <LeadershipRoleEnum.DEACON: 'DEACON'>, 'date_joined': datetime.datetime(2024, 2, 16, 9, 49, 58, 1000, tzinfo=TzInfo(UTC))}", "time": "2024-02-16T10:32:32.988164"}
+{"message": "Member.cell and back-reference Cell.leader are both of the same direction <RelationshipDirection.MANYTOONE: 2>.  Did you mean to set remote_side on the many-to-one side ?", "time": "2024-02-16T10:32:32.998160"}
+{"message": "422 127.0.0.1 POST http://localhost:8000/api/v1/member/register 0:00:00.015002", "time": "2024-02-16T10:32:33.000155"}
+{"message": "Database connection is successful", "time": "2024-02-16T10:33:29.785084"}
+{"message": "Inside create_member", "time": "2024-02-16T10:34:23.640422"}
+{"message": "Creating member {'first_name': 'Yaw ', 'last_name': 'Kofi', 'email': 'string', 'dob': datetime.datetime(2024, 2, 16, 9, 49, 58, 1000, tzinfo=TzInfo(UTC)), 'phone_number': 'string', 'gender': <GenderEnum.MALE: 'MALE'>, 'nationality': 'string', 'marital_status': <MaritalStatusEnum.SINGLE: ' SINGLE'>, 'address': 'string', 'gps_address': 'string', 'educational_level': <EducationLevelEnum.TERTIARY: 'TERTIARY'>, 'membership_status': <MembershipStatusEnum.MEMBER: 'MEMBER'>, 'leadership_role': <LeadershipRoleEnum.DEACON: 'DEACON'>, 'date_joined': datetime.datetime(2024, 2, 16, 9, 49, 58, 1000, tzinfo=TzInfo(UTC))}", "time": "2024-02-16T10:34:23.641423"}
+{"message": "Member.cell and back-reference Cell.leader are both of the same direction <RelationshipDirection.MANYTOONE: 2>.  Did you mean to set remote_side on the many-to-one side ?", "time": "2024-02-16T10:34:23.651426"}
+{"message": "422 127.0.0.1 POST http://localhost:8000/api/v1/member/register 0:00:00.014004", "time": "2024-02-16T10:34:23.652424"}
+{"message": "Database connection is successful", "time": "2024-02-16T10:43:48.081414"}
+{"message": "Database connection is successful", "time": "2024-02-16T10:45:34.643404"}
+{"message": "Database connection is successful", "time": "2024-02-16T10:45:53.820549"}
+{"message": "Database connection is successful", "time": "2024-02-16T10:46:14.945562"}
+{"message": "Database connection is successful", "time": "2024-02-16T10:48:15.743953"}
+{"message": "Database connection is successful", "time": "2024-02-16T10:49:15.493214"}
+{"message": "Database connection is successful", "time": "2024-02-16T10:49:53.971537"}
+{"message": "Database connection is successful", "time": "2024-02-16T10:54:27.307673"}
+{"message": "Inside create_member", "time": "2024-02-16T10:54:28.796974"}
+{"message": "Creating member {'first_name': 'Yaw ', 'last_name': 'Kofi', 'email': 'string', 'dob': datetime.datetime(2024, 2, 16, 9, 49, 58, 1000, tzinfo=TzInfo(UTC)), 'phone_number': 'string', 'gender': <GenderEnum.MALE: 'MALE'>, 'nationality': 'string', 'marital_status': <MaritalStatusEnum.SINGLE: ' SINGLE'>, 'address': 'string', 'gps_address': 'string', 'educational_level': <EducationLevelEnum.TERTIARY: 'TERTIARY'>, 'membership_status': <MembershipStatusEnum.MEMBER: 'MEMBER'>, 'leadership_role': <LeadershipRoleEnum.DEACON: 'DEACON'>, 'date_joined': datetime.datetime(2024, 2, 16, 9, 49, 58, 1000, tzinfo=TzInfo(UTC))}", "time": "2024-02-16T10:54:28.797974"}
+{"message": "(asyncmy.errors.IntegrityError) (1062, \"Duplicate entry 'string' for key 'member.ix_member_email'\")\n[SQL: INSERT INTO `member` (id, first_name, last_name, email, dob, phone_number, gender, nationality, marital_status, address, gps_address, educational_level, membership_status, leadership_role, department_id, date_joined, cell_id, created_date, updated_date) VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s)]\n[parameters: ('01HPRRVBEH0P2FGEBJT8DSZ4CA', 'Yaw ', 'Kofi', 'string', datetime.datetime(2024, 2, 16, 9, 49, 58, 1000, tzinfo=TzInfo(UTC)), 'string', 'MALE', 'string', 'SINGLE', 'string', 'string', 'TERTIARY', 'MEMBER', 'DEACON', None, datetime.datetime(2024, 2, 16, 9, 49, 58, 1000, tzinfo=TzInfo(UTC)), None, datetime.datetime(2024, 2, 16, 10, 54, 27, 20492, tzinfo=datetime.timezone.utc), datetime.datetime(2024, 2, 16, 10, 54, 27, 21493, tzinfo=datetime.timezone.utc))]\n(Background on this error at: https://sqlalche.me/e/20/gkpj)", "time": "2024-02-16T10:54:28.949893"}
+{"message": "422 127.0.0.1 POST http://localhost:8000/api/v1/member/register 0:00:00.158915", "time": "2024-02-16T10:54:28.952894"}
+{"message": "Inside create_member", "time": "2024-02-16T10:54:52.058605"}
+{"message": "Creating member {'first_name': 'Yaw ', 'last_name': 'Kofi', 'email': 'yaw@gmail.com', 'dob': datetime.datetime(2024, 2, 16, 9, 49, 58, 1000, tzinfo=TzInfo(UTC)), 'phone_number': 'string', 'gender': <GenderEnum.MALE: 'MALE'>, 'nationality': 'string', 'marital_status': <MaritalStatusEnum.SINGLE: ' SINGLE'>, 'address': 'string', 'gps_address': 'string', 'educational_level': <EducationLevelEnum.TERTIARY: 'TERTIARY'>, 'membership_status': <MembershipStatusEnum.MEMBER: 'MEMBER'>, 'leadership_role': <LeadershipRoleEnum.DEACON: 'DEACON'>, 'date_joined': datetime.datetime(2024, 2, 16, 9, 49, 58, 1000, tzinfo=TzInfo(UTC))}", "time": "2024-02-16T10:54:52.059606"}
+{"message": "200 127.0.0.1 POST http://localhost:8000/api/v1/member/register 0:00:00.031543", "time": "2024-02-16T10:54:52.086147"}
+{"message": "Database connection is successful", "time": "2024-02-16T11:00:50.919582"}
+{"message": "Database connection is successful", "time": "2024-02-16T11:01:02.829212"}
+{"message": "Database connection is successful", "time": "2024-02-16T11:06:04.058772"}

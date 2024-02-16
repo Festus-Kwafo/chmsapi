@@ -10,12 +10,8 @@ from src.chmsapi.models.cell import Cell
 from typing import List
 
 
-class Constituency(Base):
-    __tablename__ = "constituency"
-
+class CellLeaders(Base):
+    __tablename__ = "cell_leaders"
     id: Mapped[id_key] = mapped_column(init=False)
-    name: Mapped[str] = mapped_column(String(100), default=None)
-    location: Mapped[str] = mapped_column(String(100), default=None)
-    leader: Mapped[str] = mapped_column(ForeignKey("member.id"), default=None)
-    date_started: Mapped[datetime] = mapped_column(DateTime, default=None)
-
+    cell_id: Mapped[str] = mapped_column(String(50), unique=True, default=None)
+    leader_id: Mapped[str] = mapped_column(String(50), unique=True, default=None)

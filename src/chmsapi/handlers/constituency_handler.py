@@ -7,6 +7,7 @@ from src.chmsapi.models.constituency import Constituency
 from src.chmsapi.schemas.constituency_schema import CreateConstituencySchema, UpdateConstituencySchema
 from src.chmsapi.common.logs import log
 from src.chmsapi.common.exception.errors import HTTPError
+from src.chmsapi.models.base import generate_id
 
 
 class CRUDConstituency:
@@ -16,8 +17,10 @@ class CRUDConstituency:
         try:
             log.debug("Creating constituency " + str(dict(constituency_schema)))
             new_constituency = Constituency(**vars(constituency_schema))
+            new_constituency.id = generate_id()
             db.add(new_constituency)
             await db.flush()
+            return new_constituency
         except Exception as e:
             log.error(e)
             raise HTTPError(code=422)
@@ -55,6 +58,16 @@ class CRUDConstituency:
             await db.execute(q)
             log.debug(f'Updating constituency by id {str(constituency_id)} with {str(vars(constituency_schema))}')
             return await CRUDConstituency.get_by_id_constituency(db, constituency_id)
+        except Exception as e:
+            log.error(e)
+            raise HTTPError(code=404)
+
+    @staticmethod
+    async def get_cells_by_constituency_id(db: AsyncSession, constituency_id: str) -> List:
+        try:
+            q = await db.execute(select(Constituency).filter(Constituency.id == constituency_id))
+            constituency = q.one_or_none()
+            return constituency.cells
         except Exception as e:
             log.error(e)
             raise HTTPError(code=404)

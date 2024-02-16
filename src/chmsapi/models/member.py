@@ -2,7 +2,7 @@ from datetime import datetime
 
 from sqlalchemy import Column, String, DateTime, ForeignKey
 from sqlalchemy.dialects.mysql import LONGTEXT
-from sqlalchemy.orm import Mapped, mapped_column
+from sqlalchemy.orm import Mapped, mapped_column, relationship
 
 from src.chmsapi.models.base import Base
 from src.chmsapi.models.base import Gender, MaritalStatus, EducationLevel, MembershipStatus, LeadershipRole
@@ -27,6 +27,11 @@ class Member(Base):
     membership_status: Mapped[MembershipStatus] = Column(MembershipStatus, nullable=False)
     leadership_role: Mapped[LeadershipRole] = Column(LeadershipRole, nullable=False, comment="Leadership role in the "
                                                                                              "church")
-    cell_id: Mapped[str] = mapped_column(ForeignKey("cell.id"), default=None, nullable=True)
     department_id: Mapped[str] = mapped_column(ForeignKey("department.id"), default=None, nullable=True)
     date_joined: Mapped[datetime] = mapped_column(DateTime, default=None)
+
+
+    cell_id: Mapped[str] = mapped_column(ForeignKey("cell.id", ondelete="CASCADE"), default=None, nullable=True)
+    cell: Mapped["Cell"] = relationship("Cell", back_populates="members", foreign_keys=[cell_id], default=None)
+
+
