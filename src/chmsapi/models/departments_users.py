@@ -1,4 +1,5 @@
-from sqlalchemy import String, ForeignKey, Column, Table, Integer
+from sqlalchemy import String, ForeignKey, Column, Table
+
 from src.chmsapi.models.base import MappedBase
 
 departments_users = Table('departments_users', MappedBase.metadata,

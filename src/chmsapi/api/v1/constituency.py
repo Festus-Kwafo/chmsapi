@@ -1,9 +1,9 @@
 from fastapi import APIRouter
 from fastapi_pagination import Page
 
-from src.chmsapi.services.constituency_service import ConstituencyService
 from src.chmsapi.schemas.constituency_schema import CreateConstituencySchema, UpdateConstituencySchema, \
     ConstituencySchema
+from src.chmsapi.services.constituency_service import ConstituencyService
 
 router = APIRouter()
 

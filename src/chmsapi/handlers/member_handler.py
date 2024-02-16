@@ -5,10 +5,13 @@ from fastapi_pagination.utils import disable_installed_extensions_check
 from sqlalchemy import select
 from sqlalchemy import update
 from sqlalchemy.ext.asyncio import AsyncSession
+
 from src.chmsapi.common.exception.errors import HTTPError
-from src.chmsapi.models.member import Member
-from src.chmsapi.schemas.member_schema import CreateMember, UpdateMemberSchema
 from src.chmsapi.models.base import generate_id
+from src.chmsapi.models.member import Member
+from src.chmsapi.models.department import Department
+from src.chmsapi.schemas.member_schema import CreateMember, UpdateMemberSchema
+
 disable_installed_extensions_check()
 from src.chmsapi.common.logs import log
 
@@ -20,7 +23,9 @@ class CRUDMember:
         try:
             log.debug("Creating member " + str(dict(member_schema)))
             new_member = Member(**vars(member_schema))
+            department = await db.execute(select(Department).filter(Department.id == member_schema.department_id))
             new_member.id = generate_id()
+            new_member.departments.append(department.scalar_one())
             db.add(new_member)
             await db.flush()
             return new_member
@@ -52,7 +57,6 @@ class CRUDMember:
         except Exception as e:
             log.error(e)
             raise HTTPError(code=404)
-
 
     @staticmethod
     async def update_by_id_member(db: AsyncSession, member_id: str, member_schema: UpdateMemberSchema) -> Member:

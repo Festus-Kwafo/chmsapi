@@ -12,6 +12,3 @@ class RegisterUser(BaseModel):
     is_superuser: bool
     is_staff: bool
     is_active: bool
-
-
-

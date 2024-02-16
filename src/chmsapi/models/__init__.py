@@ -2,7 +2,10 @@ from src.chmsapi.models.attendance import Attendance
 from src.chmsapi.models.attendance_settings import AttendanceSettings
 from src.chmsapi.models.base import MappedBase
 from src.chmsapi.models.cell import Cell
+from src.chmsapi.models.cell_constituency import CellConstituency
+from src.chmsapi.models.cell_leader import CellLeaders
 from src.chmsapi.models.constituency import Constituency
 from src.chmsapi.models.department import Department
 from src.chmsapi.models.member import Member
 from src.chmsapi.models.user import User
+from src.chmsapi.models.members_departments import members_departments

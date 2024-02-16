@@ -1,12 +1,14 @@
 from typing import List
-from sqlalchemy.ext.asyncio import AsyncSession
+
+from fastapi_pagination import paginate
 from sqlalchemy import select
 from sqlalchemy import update
-from fastapi_pagination import paginate
+from sqlalchemy.ext.asyncio import AsyncSession
+
+from src.chmsapi.common.exception.errors import HTTPError
+from src.chmsapi.common.logs import log
 from src.chmsapi.models.cell import Cell
 from src.chmsapi.schemas.cell_schema import CreateCellSchema, UpdateCellSchema
-from src.chmsapi.common.logs import log
-from src.chmsapi.common.exception.errors import HTTPError
 
 
 class CRUDCell:

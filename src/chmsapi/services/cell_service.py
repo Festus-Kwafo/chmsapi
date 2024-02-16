@@ -4,7 +4,7 @@ from src.chmsapi.common.exception import errors
 from src.chmsapi.config.db import async_db_session
 from src.chmsapi.handlers.cell_handler import CRUDCell
 from src.chmsapi.models.cell import Cell
-from src.chmsapi.schemas.cell_schema import CreateCellSchema, CellSchema, UpdateCellSchema
+from src.chmsapi.schemas.cell_schema import CreateCellSchema, UpdateCellSchema
 
 
 class CellService:
@@ -13,7 +13,6 @@ class CellService:
         async with async_db_session.begin() as db:
             cell = CRUDCell()
             await cell.create_cell(obj, db)
-
 
     @staticmethod
     async def get_all() -> list:

@@ -1,8 +1,9 @@
-from src.chmsapi.config.db import async_db_session
-from src.chmsapi.schemas.constituency_schema import CreateConstituencySchema, UpdateConstituencySchema
-from src.chmsapi.handlers.constituency_handler import CRUDConstituency
-from src.chmsapi.common.exception import errors
 from fastapi import status
+
+from src.chmsapi.common.exception import errors
+from src.chmsapi.config.db import async_db_session
+from src.chmsapi.handlers.constituency_handler import CRUDConstituency
+from src.chmsapi.schemas.constituency_schema import CreateConstituencySchema, UpdateConstituencySchema
 
 
 class ConstituencyService:

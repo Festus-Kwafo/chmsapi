@@ -22,6 +22,7 @@ class CreateMember(BaseModel):
     membership_status: MembershipStatusEnum
     leadership_role: LeadershipRoleEnum
     date_joined: Optional[datetime]
+    department_id: Optional[str]
 
     class Config:
         from_attributes = True
